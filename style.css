@@ -1,0 +1,61 @@
+body {
+    background-color: lightpink;
+}
+
+header {
+    border: .75rem solid #32a1ce;
+    background-color: rgb(255, 255, 128);
+    text-align: center;  
+}
+
+footer {
+    border: .75rem solid #32a1ce;
+    background-color: rgb(255, 255, 128); 
+    height: 100px;
+}
+
+main {
+    background-color: #dfb2f7;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #fc9803;
+    font-size: 50px;
+}
+
+h2 {
+    color: #7b03fc;
+
+}
+
+a:hover {
+    color: darkgray; 
+}
+
+
+.links ul {
+    list-style-type: none;
+}
+
+.link {
+    display: inline;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+img:hover {
+    opacity: 20%;
+}
+
+.copyright {
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}

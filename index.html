@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Review</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Lina's Book Review</h1>
+        <h1>LINA'S BOOK REVIEWS</h1>
     </header>
-    <nav>
+    <nav class="links">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="clean_ruby.html">Clean Ruby</a></li>
-            <li><a href="confident_ruby.html">Confident Ruby</a></li>
-            <li><a href="eloquent_ruby.html">Eloquent Ruby</a></li>
-            <li><a href="ruby_science.html">Ruby Science</a></li>
-            <li><a href="well_grounded_rubyist.html">Well Grounded Rubyist</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="link"><a href="index.html">HOME</a></li>
+
+            <li class="link"><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
     <main>
-        <ul>
-            <li>
-                <a href="clean_ruby.html"><img src="images/cover-clean_ruby.jpg"/></a>
-            </li>
-            <li>
-                <a href="confident_ruby.html"><img src="images/cover-confident_ruby.jpg"/></a>
-            </li>
-            <li>
-                <a href="eloquent_ruby.html"><img src="images/cover-eloquent_ruby.jpg"/></a>
-            </li>
-            <li>
-                <a href="ruby_science.html"><img src="images/cover-ruby_science.jpg"/></a>
-            </li>
-            <li>
-                <a href="well_grounded_rubyist.html"><img src="images/cover-well_grounded_rubyist.jpg"/></a>
-            </li>
-        </ul>
+        <div class="row">
+            <div class="column">
+                <a  href="clean_ruby.html"><img src="images/cover-clean_ruby.jpg" alt="" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="confident_ruby.html"><img src="images/cover-confident_ruby.jpg" alt="" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="eloquent_ruby.html"><img src="images/cover-eloquent_ruby.jpg" alt="" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="ruby_science.html"><img src="images/cover-ruby_science.jpg" alt="" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="well_grounded_rubyist.html"><img src="images/cover-well_grounded_rubyist.jpg" alt="" style="width:100%"></a>
+            </div>
+          </div>
     </main>
     <footer>
-        <h4>Copyright 2020 Lina Do</h4>
+        <h4 class="copyright">Copyright 2020 Lina Do</h4>
     </footer>
 </body>
 </html>
